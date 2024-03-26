@@ -1,0 +1,57 @@
+body{
+    background-color: aliceblue;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#ikr {
+  border: 0.5px solid black;
+  border-collapse: collapse;
+  margin: 30px;
+}
+
+.oxford {
+    
+    display: flex;
+    
+}
+
+.oxford .cap {
+    width: 300px;
+    height: 248.6px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: green;
+    background-color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    transition: 0.5s
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }

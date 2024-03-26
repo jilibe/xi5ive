@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+}
+
+.lol {
+    border: 1px solid black;
+    margin-right: 900px;
+}
+
+.out { 
+    margin: 0px 35px 0px 0px;
+}
+
+.team {
+    resize: none;
+    border: 0px solid grey;
+    padding: 10px;
+    border-radius: 20px;
+    resize: horizontal;
+}
+
+
+
+button {
+    size: 900px;
+    border: 0 solid black; 
+    border-radius: 0px; background-color: antiquewhite;
+    width: 100px; 
+    padding: 6px;
+    border-radius: 15px;
+}
+
+.cust {
+    display: flex;
+}
+.cust p {
+    border: 0px solid black;
+    margin-right: 25px;
+    padding: 35px 25px 35px 0px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: green;
+    background-color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    transition: 0.5s
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
